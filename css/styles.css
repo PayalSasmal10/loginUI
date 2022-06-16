@@ -1,0 +1,81 @@
+body{
+    background-image: url("../images/background_image1.png") ;
+}
+
+
+.outer-div {
+    /* text-align: center; */
+    margin: auto;
+    width: 70vw;
+    height: 65vh;
+    padding: 100px ;   
+}
+
+.mid-div {
+    width: 500px;
+    margin: auto;
+    height: 510px ;
+    position: relative;
+    left: 400px ;
+    padding: 40px 13px 70px 10px;
+    background-color: #F7D716;
+    border-radius: 5%;
+    
+}
+
+.inner-div{
+    margin: auto;
+    background-color: #fff;
+    height: 430px;
+    width: 410px;
+    /* position: relative;
+    left: 400px; */
+    text-align: center;
+    border-radius: 3%;
+}
+
+.header {
+    padding-top: 50px;
+    padding-bottom: 10px;
+    font-family: "Monserrate-Bold";
+    font-weight: 900;
+    font-size: 2rem; 
+    color: #6d5d04;  
+}
+
+
+.hearder6{
+    font-family: "Monserrate-Bold";   
+    padding: 40px 0px 0px 0px;
+    color: #6d5d04; 
+
+}
+
+.login {
+    color: rgb(240, 16, 8);
+    text-decoration: none;
+}
+
+.fontaws-icon {
+    padding: 20px 10px;
+}
+
+.input {
+    padding: 15px 5px 15px 20px;
+    width: 200px;
+    height: 40px;
+    border-radius: 15px 50px;
+    margin: auto;
+}
+
+::placeholder{
+    color: #6d5d04;
+
+}
+
+.btn-cus{
+    margin-top: 15px;
+    width: 270px;
+    text-align: center;
+    text-emphasis-color: #6d5d04;
+}
